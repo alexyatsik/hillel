@@ -10,10 +10,23 @@
 <body>
 
     <header class="header">
+
+        <nav class="header-head-mobile">
+
+            <a href="#" class="header-head-mobile__telephone">
+                <img src="Assets/Images/Icons/Phone.svg" alt="Telephone">
+            </a>
+            <img src="./Assets/Images/Logo/Lockin-mobile.svg" alt="Logo" class="header-head-mobile__logo">
+            <img src="./Assets/Images/Icons/Burger.svg" alt="Menu" class="header-head-mobile__menu">
+        
+        </nav>
+
         <nav class="header-head"> 
             <div class="container">
                 <div class="header-head__wrapper">
+
                     <div class="header-head__left">
+
                         <ul class="header-head__city-list">
                             <li class="header-head__city-item">
                                 <a href="#" class="header-head__city-link">Киев</a>
@@ -28,28 +41,39 @@
                                 <a href="#" class="header-head__city-link">Харьков</a>
                             </li>
                         </ul>
+
                         <div class="status">
                             <img src="./Assets/Content/icons/online.svg" alt="Status" class="status__image">
                         </div>
+
                     </div>
+
                     <div class="header-head__right">
+
                         <img src="Assets/Images/Icons/Phone-w.svg" alt="Telephone" class="header-head__telephone-icon">
                         <a href="tel:123-456-7890" class="header-head__telephone">0 800 33 08 67</a>
+                        
                         <div class="language-switch">
                             <ul class="language-switch__list">
                                 <li class="language-switch__item language-switch__item--active"><a href="#" class="language-switch__link">Рус</a></li>
                                 <li class="language-switch__item"><a href="#" class="language-switch__link">Укр</a></li>
                             </ul>
                         </div>
+
                     </div>
+
                 </div>
             </div>
         </nav>
+
         <div class="navigation-logo">
             <div class="container">
+
                 <div class="navigation-logo__wrapper">
+
                     <img src="./Assets/Images/Logo/Lockin.svg" alt="Logo" class="logo">
                     <nav class="navigation">
+
                         <ul class="navigation__list">
                             <li class="navigation__item submenu-parent">
                                 <a href="#" class="navigation__link ">курсы</a>
@@ -75,38 +99,55 @@
                                 <a href="#" class="navigation__link">вебинары</a>
                             </li>
                             <li class="navigation__item">
+                                <input type="button" class="navigation__button button" value="Консультация">
+                            </li>
+                            <li class="navigation__item">
                                 <a href="#" class="navigation__link">блог</a>
                             </li>
                             <li class="navigation__item">
                                 <a href="#" class="navigation__link">контакты</a>
                             </li>
                         </ul>
+
                     </nav>
+
                 </div>
+
             </div>
         </div>
+
         <div class="course">
             <div class="container">
+
                 <div class="course__wrapper">
+
                     <div class="course__header">
+
                         <img src="./Assets/Content/Courses/JavaElementary.svg" alt="Java elementary" class="course__logo">
+                        
                         <div class="course__title">
                             <h2>Онлайн курс</h2>
                             <h2><strong>Java Elementary</strong></h2>
                         </div>
+
                         <div class="course__difficulty">Advanced level</div>
                         <div class="course__rating">
                             <div class="course__rating-stars">4.5</div>
                             <div class="course__rating-votes">37 голосов</div>
                         </div>
+
                     </div>
+
                     <div class="course__footer">
+
                         <div class="course__lessons-info">
                             <div class="course__lessons">32 занятия</div>
                             <div class="course__lessons-frequency">2 занятия в неделю</div>
                             <div class="course__start">Старт в январе</div>
                         </div>
+                        
                         <div class="course__course-availability">
+
                             <div class="course__popularity">
                                 <span>За неделю записался</span>
                                 <span class="course__people-per-week">1 человек</span>
@@ -115,13 +156,77 @@
                                 <span>Осталось</span>
                                 <span class="course__free-spaces">3 места</span>
                             </div>
+
                         </div>
-                        <input type="button" class="course__free-consultation" value="Бесплатная консультация">
+
+                        <input type="button" class="course__free-consultation button" value="Бесплатная консультация">
+                    
                     </div>
+
                 </div>
+
             </div>
         </div>
     </header>
+
+    <div class="main">
+        <div class="container">
+
+            <div class="course-description">
+
+            <h3 class="course-description__title">Хватит страдать, начни писать на Java!</h3>
+
+            <p class="course-description__about-course">
+
+                <div class="course-description__info">
+                    Курс Java Elementary предназначен для тех, кто желает получить 
+                    специальность Java Developer и планирует развивать свою будущую 
+                    профессиональную деятельность в IT-сфере. В течение обучения вы 
+                    получите знания, необходимые для создания Java-приложений. Этот 
+                    курс рассчитан на людей с базовыми знаниями в любом С-подобном 
+                    языке программирования.
+                </div> 
+                <div class="course-description__purpose">
+                    <strong>Цель курса</strong> — дать необходимый объем знаний для прохождения 
+                    собеседования на должность Junior Java Developer.
+                </div>
+                <div class="course-description__it-helps">
+                    <strong>Курс поможет вам</strong> получить знания, необходимые для создания 
+                    реальных Java-приложений.
+                </div>
+
+            </p>
+
+            <div class="course-description__test">
+
+                <p class="course-description__test-description">
+                    <strong>Курс рассчитан</strong> на людей, окончивших курс Introduction Java, 
+                    или с базовыми знаниями в любом С-подобном языке программирования.
+                    <br />
+                    <strong>Для записи требуется пройти тест.</strong>
+                </p>
+
+                <input type="button" class="button" value="Пройти тест">
+
+            </div>
+
+            </div>
+
+            <div class="technologies">
+
+                <ul class="technologies__list">
+
+                    <li class="technologies__item">
+                        <div class="technologies__logo"></div>
+                        <span class="technologies__title">Some title</span>
+                    </li>
+                    
+                </ul>
+
+            </div>
+
+        </div>
+    </div>
 
 </body>
 </html>

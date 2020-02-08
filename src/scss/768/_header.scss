@@ -1,0 +1,26 @@
+@media (max-width: 1023px) {
+     .navigation {
+         
+        &__item:nth-last-child(-n+2) {
+            display: none;
+        }
+
+        &__item:nth-last-child(3) {
+            display: inline;
+            padding-right: 0;
+        }
+
+        &__button {
+            border-radius: 0.8rem;
+
+            padding: 0.7rem 1.5rem;
+
+            font-size: 1.4rem;
+            font-weight: 700;
+            line-height: 1.8rem;
+        }
+
+     }
+
+
+}

@@ -32,3 +32,15 @@ strong {
     font-weight: 700;
 }
 
+.button {
+    border: 0;
+
+    color: $color--white;
+
+    background-color: $color--green;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: $color--green-hover;
+}

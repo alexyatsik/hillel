@@ -1,0 +1,65 @@
+@media (max-width: 767px) {
+    
+    .navigation-logo,
+    .header-head {
+        display: none;
+    }
+
+    .header-head-mobile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        background-color: hsla(360, 100%, 100%, 0.85);
+        backdrop-filter: blur(20px);
+
+        padding: 1rem;
+    }
+
+    .course {
+
+        padding-top: 16%;
+        
+        &__header {
+            padding-bottom: 3rem;
+        }
+
+        &__title {
+            font-size: 3rem;
+            line-height: 4rem;
+        }
+
+        &__footer {
+            padding-top: 1.5rem;
+        }
+
+        &__lessons-info {
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            font-size: 1.6rem;
+            line-height: 2rem;
+        }
+        &__lessons,
+        &__lessons-frequency,
+        &__start {
+            padding-top: 1.5rem;
+        }
+
+        &__course-availability {
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            font-size: 1.4rem;
+            line-height: 1.8rem;
+        }
+
+        &__popularity,
+        &__spaces {
+            padding: 1rem 1rem 0 1rem;
+        }
+
+        &__spaces:before {
+            display: none;
+        }
+
+    }
+}
