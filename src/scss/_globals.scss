@@ -10,8 +10,6 @@ body {
     font-family: $main--font;
     font-weight: 400;
     color: hsla(0, 0%, 0%, 1);
-
-    margin: 0;
 }
 
 a {
@@ -23,16 +21,14 @@ a:hover {
     text-decoration: underline;
 }
 
-ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-
 .container {
     max-width: 1380px;
 
     padding: 0 2rem;
     margin: 0 auto;
+}
+
+strong {
+    font-weight: 700;
 }
 

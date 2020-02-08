@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/css/style.css">
     <title>Hillel online</title>
 </head>
@@ -86,31 +87,37 @@
         </div>
         <div class="course">
             <div class="container">
-                <div class="course__header">
-                    <div class="course__logo"></div>
-                    <div class="course__title">
-                        <h2>Онлайн курс</h2>
-                        <h2><strong>Java Elementary</strong></h2>
+                <div class="course__wrapper">
+                    <div class="course__header">
+                        <img src="./Assets/Content/Courses/JavaElementary.svg" alt="Java elementary" class="course__logo">
+                        <div class="course__title">
+                            <h2>Онлайн курс</h2>
+                            <h2><strong>Java Elementary</strong></h2>
+                        </div>
+                        <div class="course__difficulty">Advanced level</div>
+                        <div class="course__rating">
+                            <div class="course__rating-stars">4.5</div>
+                            <div class="course__rating-votes">37 голосов</div>
+                        </div>
                     </div>
-                    <div class="course__difficulty">Advanced level</div>
-                    <div class="course__raiting">
-                        <div class="course__raiting-stars"></div>
-                        <div class="course__raiting-votes">37 голосов</div>
+                    <div class="course__footer">
+                        <div class="course__lessons-info">
+                            <div class="course__lessons">32 занятия</div>
+                            <div class="course__lessons-frequency">2 занятия в неделю</div>
+                            <div class="course__start">Старт в январе</div>
+                        </div>
+                        <div class="course__course-availability">
+                            <div class="course__popularity">
+                                <span>За неделю записался</span>
+                                <span class="course__people-per-week">1 человек</span>
+                            </div>
+                            <div class="course__spaces">
+                                <span>Осталось</span>
+                                <span class="course__free-spaces">3 места</span>
+                            </div>
+                        </div>
+                        <input type="button" class="course__free-consultation" value="Бесплатная консультация">
                     </div>
-                </div>
-                <div class="course__footer">
-                    <div class="course__lessons">32 занятия</div>
-                    <div class="course__lessons-frequency">2 занятия в неделю</div>
-                    <div class="course__start">Старт в январе</div>
-                    <div class="course__popularity">
-                        <span>За неделю записался</span>
-                        <span class="course__people-per-week">1 человек</span>
-                    </div>
-                    <div class="course__spaces">
-                        <span>Осталось</span>
-                        <span class="course__free-spaces">3 места</span>
-                    </div>
-                    <input type="button" class="course__free-consultation" value="Бесплатная консультация">
                 </div>
             </div>
         </div>
