@@ -1,0 +1,121 @@
+.main__inner {
+    max-width: 910px;
+}
+
+.course-description {
+
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    padding: 3rem;
+
+    &__title {
+        padding-top: 6rem;
+
+        font-size: 5rem;
+        line-height: 5.4rem;
+    }
+
+    &__about-course {
+        padding-top: 3rem;
+    }
+
+    &__purpose,
+    &__it-helps {
+        color: $color--navy;
+    }
+
+    
+}
+
+.test {
+    padding: 3rem;
+
+    background-color: hsla(89, 94%, 94%, 1);
+
+    border-radius: 1.2rem;
+
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+
+    &__button {
+        margin-top: 2rem;
+
+        font-size: 1.6rem;
+
+        border-radius: 1rem;
+
+        padding: 1rem 2.5rem;
+    }
+
+}
+
+.container {
+    .technologies {
+        max-width: 910px;
+        margin: 0 auto;
+    }
+}
+
+.technologies {
+
+    &__title {
+        padding-top: 6rem;
+
+        color: hsla(215, 8%, 59%, 1);
+        font-size: 1.4rem;
+        font-weight: 700;
+        line-height: 2.1rem;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        text-align: center;
+    }
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    @mixin generateClassForImage($imageName) {
+        &__logo.#{$imageName} {
+            background-image: url('../../Assets/Content/Technologies/x1/#{$imageName}.png');
+            background-size: 6.4rem 6.4rem;
+            height: 6.4rem;
+            width: 6.4rem;
+        }
+    
+        @media  (-webkit-min-device-pixel-ratio: 2), 
+                (min-resolution: 192dpi)  {
+            &__logo.#{$imageName}  {
+               background-image: url('../../Assets/Content/Technologies/x2/#{$imageName}.png');
+            }
+         }
+    }
+
+    @include generateClassForImage('Bootstrap');
+    @include generateClassForImage('CSS');
+    @include generateClassForImage('DOM');
+    @include generateClassForImage('ES6');
+    @include generateClassForImage('Git');
+    @include generateClassForImage('HTML5');
+    @include generateClassForImage('Idea');
+    @include generateClassForImage('Java');
+    @include generateClassForImage('JMeter');
+    @include generateClassForImage('Json');
+    @include generateClassForImage('Linux');
+    @include generateClassForImage('Maven');
+    @include generateClassForImage('Postman');
+    @include generateClassForImage('Rest');
+    @include generateClassForImage('SASS');
+    @include generateClassForImage('SoapUI');
+    @include generateClassForImage('SVG');
+    @include generateClassForImage('Typescript');
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 3rem;
+    }
+
+}

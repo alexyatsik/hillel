@@ -326,6 +326,280 @@ strong {
   font-weight: 600;
 }
 
+.main__inner {
+  max-width: 910px;
+}
+
+.course-description {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  padding: 3rem;
+}
+.course-description__title {
+  padding-top: 6rem;
+  font-size: 5rem;
+  line-height: 5.4rem;
+}
+.course-description__about-course {
+  padding-top: 3rem;
+}
+.course-description__purpose, .course-description__it-helps {
+  color: #001370;
+}
+
+.test {
+  padding: 3rem;
+  background-color: #f0fee1;
+  border-radius: 1.2rem;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+}
+.test__button {
+  margin-top: 2rem;
+  font-size: 1.6rem;
+  border-radius: 1rem;
+  padding: 1rem 2.5rem;
+}
+
+.container .technologies {
+  max-width: 910px;
+  margin: 0 auto;
+}
+
+.technologies__title {
+  padding-top: 6rem;
+  color: #8e959f;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 2.1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  text-align: center;
+}
+.technologies__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.technologies__logo.Bootstrap {
+  background-image: url("../../Assets/Content/Technologies/x1/Bootstrap.png");
+  background-size: 6.4rem 6.4rem;
+  height: 6.4rem;
+  width: 6.4rem;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .technologies__logo.Bootstrap {
+    background-image: url("../../Assets/Content/Technologies/x2/Bootstrap.png");
+  }
+}
+.technologies__logo.CSS {
+  background-image: url("../../Assets/Content/Technologies/x1/CSS.png");
+  background-size: 6.4rem 6.4rem;
+  height: 6.4rem;
+  width: 6.4rem;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .technologies__logo.CSS {
+    background-image: url("../../Assets/Content/Technologies/x2/CSS.png");
+  }
+}
+.technologies__logo.DOM {
+  background-image: url("../../Assets/Content/Technologies/x1/DOM.png");
+  background-size: 6.4rem 6.4rem;
+  height: 6.4rem;
+  width: 6.4rem;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .technologies__logo.DOM {
+    background-image: url("../../Assets/Content/Technologies/x2/DOM.png");
+  }
+}
+.technologies__logo.ES6 {
+  background-image: url("../../Assets/Content/Technologies/x1/ES6.png");
+  background-size: 6.4rem 6.4rem;
+  height: 6.4rem;
+  width: 6.4rem;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .technologies__logo.ES6 {
+    background-image: url("../../Assets/Content/Technologies/x2/ES6.png");
+  }
+}
+.technologies__logo.Git {
+  background-image: url("../../Assets/Content/Technologies/x1/Git.png");
+  background-size: 6.4rem 6.4rem;
+  height: 6.4rem;
+  width: 6.4rem;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .technologies__logo.Git {
+    background-image: url("../../Assets/Content/Technologies/x2/Git.png");
+  }
+}
+.technologies__logo.HTML5 {
+  background-image: url("../../Assets/Content/Technologies/x1/HTML5.png");
+  background-size: 6.4rem 6.4rem;
+  height: 6.4rem;
+  width: 6.4rem;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .technologies__logo.HTML5 {
+    background-image: url("../../Assets/Content/Technologies/x2/HTML5.png");
+  }
+}
+.technologies__logo.Idea {
+  background-image: url("../../Assets/Content/Technologies/x1/Idea.png");
+  background-size: 6.4rem 6.4rem;
+  height: 6.4rem;
+  width: 6.4rem;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .technologies__logo.Idea {
+    background-image: url("../../Assets/Content/Technologies/x2/Idea.png");
+  }
+}
+.technologies__logo.Java {
+  background-image: url("../../Assets/Content/Technologies/x1/Java.png");
+  background-size: 6.4rem 6.4rem;
+  height: 6.4rem;
+  width: 6.4rem;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .technologies__logo.Java {
+    background-image: url("../../Assets/Content/Technologies/x2/Java.png");
+  }
+}
+.technologies__logo.JMeter {
+  background-image: url("../../Assets/Content/Technologies/x1/JMeter.png");
+  background-size: 6.4rem 6.4rem;
+  height: 6.4rem;
+  width: 6.4rem;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .technologies__logo.JMeter {
+    background-image: url("../../Assets/Content/Technologies/x2/JMeter.png");
+  }
+}
+.technologies__logo.Json {
+  background-image: url("../../Assets/Content/Technologies/x1/Json.png");
+  background-size: 6.4rem 6.4rem;
+  height: 6.4rem;
+  width: 6.4rem;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .technologies__logo.Json {
+    background-image: url("../../Assets/Content/Technologies/x2/Json.png");
+  }
+}
+.technologies__logo.Linux {
+  background-image: url("../../Assets/Content/Technologies/x1/Linux.png");
+  background-size: 6.4rem 6.4rem;
+  height: 6.4rem;
+  width: 6.4rem;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .technologies__logo.Linux {
+    background-image: url("../../Assets/Content/Technologies/x2/Linux.png");
+  }
+}
+.technologies__logo.Maven {
+  background-image: url("../../Assets/Content/Technologies/x1/Maven.png");
+  background-size: 6.4rem 6.4rem;
+  height: 6.4rem;
+  width: 6.4rem;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .technologies__logo.Maven {
+    background-image: url("../../Assets/Content/Technologies/x2/Maven.png");
+  }
+}
+.technologies__logo.Postman {
+  background-image: url("../../Assets/Content/Technologies/x1/Postman.png");
+  background-size: 6.4rem 6.4rem;
+  height: 6.4rem;
+  width: 6.4rem;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .technologies__logo.Postman {
+    background-image: url("../../Assets/Content/Technologies/x2/Postman.png");
+  }
+}
+.technologies__logo.Rest {
+  background-image: url("../../Assets/Content/Technologies/x1/Rest.png");
+  background-size: 6.4rem 6.4rem;
+  height: 6.4rem;
+  width: 6.4rem;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .technologies__logo.Rest {
+    background-image: url("../../Assets/Content/Technologies/x2/Rest.png");
+  }
+}
+.technologies__logo.SASS {
+  background-image: url("../../Assets/Content/Technologies/x1/SASS.png");
+  background-size: 6.4rem 6.4rem;
+  height: 6.4rem;
+  width: 6.4rem;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .technologies__logo.SASS {
+    background-image: url("../../Assets/Content/Technologies/x2/SASS.png");
+  }
+}
+.technologies__logo.SoapUI {
+  background-image: url("../../Assets/Content/Technologies/x1/SoapUI.png");
+  background-size: 6.4rem 6.4rem;
+  height: 6.4rem;
+  width: 6.4rem;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .technologies__logo.SoapUI {
+    background-image: url("../../Assets/Content/Technologies/x2/SoapUI.png");
+  }
+}
+.technologies__logo.SVG {
+  background-image: url("../../Assets/Content/Technologies/x1/SVG.png");
+  background-size: 6.4rem 6.4rem;
+  height: 6.4rem;
+  width: 6.4rem;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .technologies__logo.SVG {
+    background-image: url("../../Assets/Content/Technologies/x2/SVG.png");
+  }
+}
+.technologies__logo.Typescript {
+  background-image: url("../../Assets/Content/Technologies/x1/Typescript.png");
+  background-size: 6.4rem 6.4rem;
+  height: 6.4rem;
+  width: 6.4rem;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .technologies__logo.Typescript {
+    background-image: url("../../Assets/Content/Technologies/x2/Typescript.png");
+  }
+}
+.technologies__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+}
+
+.footer {
+  background-color: #fafafa;
+}
+
+@media (max-width: 1919px) {
+  .main__inner {
+    max-width: 800px;
+  }
+}
+@media (max-width: 1279px) {
+  .main__inner {
+    max-width: 630px;
+  }
+}
 @media (max-width: 1023px) {
   .navigation__item:nth-last-child(-n+2) {
     display: none;
@@ -340,6 +614,12 @@ strong {
     font-size: 1.4rem;
     font-weight: 700;
     line-height: 1.8rem;
+  }
+}
+@media (max-width: 1023px) {
+  .main__inner {
+    max-width: unset;
+    padding: 0 30px;
   }
 }
 @media (max-width: 767px) {
@@ -390,6 +670,32 @@ strong {
   }
   .course__spaces:before {
     display: none;
+  }
+}
+@media (max-width: 767px) {
+  .main__inner {
+    padding: 0;
+  }
+
+  .course-description {
+    padding-top: 0;
+  }
+  .course-description__title {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+
+  .technologies__title {
+    padding-top: 3rem;
+  }
+
+  .container {
+    padding: 0;
+  }
+
+  .course {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 }
 
