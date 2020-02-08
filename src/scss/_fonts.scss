@@ -1,0 +1,26 @@
+@font-face {
+	font-family: 'Solomon Sans';
+	src: local('../../Assets/Fonts/'), local('Solomon-sans'),
+        url('../../Assets/Fonts/solomon_sans_normal.woff') format('woff'),
+        url('../../Assets/Fonts/solomon_sans_normal.woff2') format('woff2');;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Solomon Sans';
+	src: local('../../Assets/Fonts/'), local('Solomon-sans'),
+        url('../../Assets/Fonts/solomon_sans_semibold.woff') format('woff'),
+        url('../../Assets/Fonts/solomon_sans_semibold.woff2') format('woff2');;
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Solomon Sans';
+	src: local('../../Assets/Fonts/'), local('Solomon-sans'),
+        url('../../Assets/Fonts/solomon_sans_bold.woff') format('woff'),
+        url('../../Assets/Fonts/solomon_sans_bold.woff2') format('woff2');;
+	font-weight: 700;
+	font-style: normal;
+}

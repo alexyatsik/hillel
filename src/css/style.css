@@ -1,0 +1,182 @@
+@font-face {
+  font-family: "Solomon Sans";
+  src: local("../../Assets/Fonts/"), local("Solomon-sans"), url("../../Assets/Fonts/solomon_sans_normal.woff") format("woff"), url("../../Assets/Fonts/solomon_sans_normal.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Solomon Sans";
+  src: local("../../Assets/Fonts/"), local("Solomon-sans"), url("../../Assets/Fonts/solomon_sans_semibold.woff") format("woff"), url("../../Assets/Fonts/solomon_sans_semibold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Solomon Sans";
+  src: local("../../Assets/Fonts/"), local("Solomon-sans"), url("../../Assets/Fonts/solomon_sans_bold.woff") format("woff"), url("../../Assets/Fonts/solomon_sans_bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+* {
+  box-sizing: content-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Solomon Sans";
+  font-weight: 400;
+  color: black;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.container {
+  max-width: 1380px;
+  padding: 0 2rem;
+  margin: 0 auto;
+}
+
+.header {
+  background-image: url("../../Assets/Content/Background/hero-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 1000px;
+  color: white;
+}
+
+.header-head {
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(30px);
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+.header-head__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-head__left, .header-head__right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-head__city-list {
+  display: flex;
+  align-items: center;
+}
+.header-head__city-item {
+  position: relative;
+  padding: 0 1.2rem;
+}
+.header-head__city-item:after {
+  content: "|";
+  position: absolute;
+  right: -0.1rem;
+  color: rgba(255, 255, 255, 0.2);
+}
+.header-head__city-item:last-child:after {
+  content: "";
+}
+.header-head__city-item:first-child {
+  padding: 0;
+}
+.header-head__city-link, .header-head__telephone {
+  color: white;
+}
+.header-head__telephone {
+  margin-right: 2.2rem;
+}
+
+.status {
+  line-height: 0;
+}
+
+.language-switch__list {
+  display: flex;
+}
+.language-switch__item {
+  padding: 0.35rem 1rem;
+}
+.language-switch__item:last-child {
+  padding: 0.35rem 0 0.35rem 1rem;
+}
+.language-switch__item--active {
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 0.6rem;
+}
+.language-switch__link {
+  color: white;
+}
+
+.navigation-logo {
+  padding-top: 1.7708333333%;
+}
+.navigation-logo__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation {
+  font-size: 2rem;
+  line-height: 2.4rem;
+}
+.navigation__list {
+  display: flex;
+}
+.navigation__item {
+  position: relative;
+  padding: 0 1.5rem;
+}
+.navigation__item:last-child {
+  padding: 0;
+}
+.navigation__item:first-child {
+  padding: 0 3rem;
+}
+.navigation__item:first-child::after {
+  content: url("../../Assets/Images/Icons/ButtonArrow-w.svg");
+  position: absolute;
+  right: 1.4rem;
+  top: 0.3rem;
+}
+.navigation__item:hover .navigation__courses-list {
+  display: block;
+}
+.navigation__link {
+  color: white;
+}
+.navigation__courses-list {
+  display: none;
+  padding: 1rem;
+  position: absolute;
+  top: 4rem;
+  background-color: white;
+  border-radius: 1rem;
+}
+.navigation__courses-item {
+  min-width: max-content;
+  padding: 0.5rem 0;
+}
+.navigation__courses-link {
+  font-weight: 600;
+  color: #001370;
+}
+
+/*# sourceMappingURL=style.css.map */
