@@ -68,6 +68,11 @@ strong {
   color: white;
 }
 
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .header {
+    background-image: url("../../Assets/Content/Background/hero-image@X2.jpg");
+  }
+}
 .header-head-mobile {
   display: none;
 }
@@ -172,19 +177,20 @@ strong {
   right: 1.4rem;
   top: 0.3rem;
 }
-.navigation__item:hover .navigation__courses-list {
-  display: block;
-}
 .navigation__link {
   color: white;
 }
 .navigation__courses-list {
-  display: none;
+  display: block;
+  box-sizing: content-box;
   padding: 1rem;
   position: absolute;
   top: 4rem;
   background-color: white;
   border-radius: 1rem;
+}
+.navigation__courses-list--hidden {
+  display: none;
 }
 .navigation__courses-item {
   min-width: max-content;
@@ -193,6 +199,7 @@ strong {
 .navigation__courses-link {
   font-weight: 600;
   color: #001370;
+  width: 100%;
 }
 
 .course {

@@ -75,9 +75,10 @@
                     <nav class="navigation">
 
                         <ul class="navigation__list">
+
                             <li class="navigation__item submenu-parent">
-                                <a href="#" class="navigation__link ">курсы</a>
-                                <ul class="navigation__courses-list">
+                                <a href="#" id="navListCourses" class="navigation__link">курсы</a>
+                                <ul id="navListCoursesMenu" class="navigation__courses-list navigation__courses-list--hidden">
                                     <li class="navigation__courses-item">
                                         <a href="#" class="navigation__courses-link">Front-End Basic</a>
                                     </li>
@@ -107,6 +108,7 @@
                             <li class="navigation__item">
                                 <a href="#" class="navigation__link">контакты</a>
                             </li>
+
                         </ul>
 
                     </nav>
@@ -349,5 +351,7 @@
         </div>
     </footer>
 
+    <script src="src/js/functions.js"></script>
+    <script src="src/js/menuCoursesExpand.js"></script>
 </body>
 </html>
