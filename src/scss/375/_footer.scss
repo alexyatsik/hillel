@@ -1,14 +1,11 @@
 @media (max-width: 767px) {
     .cards {
 
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
-
-        grid-template-columns: repeat(1, 1fr);
+        /*grid-template-columns: repeat(1, 1fr);
 
         &__card:nth-last-child(-n+3) {
             display: none;
-        }
+        }*/
 
         &__details {
             min-height: 21.8rem;

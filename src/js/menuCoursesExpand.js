@@ -10,6 +10,5 @@ window.addEventListener('click', event => {
         return;
     } else if ( !isDescendant(navListCoursesMenu, event.target) && event.target !== navListCoursesMenu) {
         navListCoursesMenu.classList.add('navigation__courses-list--hidden');
-        console.log(event.target);
     }
 });

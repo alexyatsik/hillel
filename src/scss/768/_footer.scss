@@ -2,11 +2,11 @@
     
     .cards {
 
-        grid-template-columns: repeat(2, 1fr);
+        /*grid-template-columns: repeat(2, 1fr);
 
         &__card:nth-last-child(-n+2) {
             display: none;
-        }
+        }*/
         
     }
 }
