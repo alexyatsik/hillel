@@ -22,19 +22,38 @@
         font-size: 1.6rem;
         line-height: 2.6rem;
     }
+    
+}
 
-    &__cards {
-        padding-top: 3rem;
+.cards {
 
-        display: flex;
-    }
+    padding-top: 3rem;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 3rem;
 
     &__card {
         position: relative;
 
-        max-width: 32.3rem;
+        display: flex;
+        flex-direction: column;
 
-        margin: 0 1.5rem;
+        background-color: hsla(360, 100%, 100%, 1);
+
+        min-height: 44.8rem;
+    }
+
+    &__card:first-child {
+        margin-left: 0;
+    }
+
+    &__card:last-child {
+        margin-right: 0;
+    }
+
+    &__card:hover {
+        box-shadow: 0 1.5rem 3rem hsla(218, 13%, 88%, 1);
     }
 
     &__expand {
@@ -48,6 +67,11 @@
 
         background-color: hsla(0, 0%, 0%, 0.3);
         border-radius: 50%;
+    }
+
+    &__expand:hover {
+        cursor: pointer;
+        background-color: hsla(0, 0%, 0%, 0.5);
     }
 
     &__expand::after {
@@ -65,11 +89,18 @@
     }
 
     &__photo {
-        width: 32.3rem;
-        height: 20rem;
+        width: 100%;
+        min-height: 20rem;
+
+        object-fit: cover;
     }
 
     &__details {
+        display: flex;
+        flex-direction: column;
+
+        min-height: 18.8rem;
+
         padding: 3rem;
     }
 
@@ -77,7 +108,7 @@
         font-size: 2.4rem;
         line-height: 3rem;
 
-        max-width: 22.2rem;
+        max-width: 50%;
     }
 
     &__position {
@@ -90,7 +121,43 @@
     }
 
     &__company {
-        padding-top: 2.4rem;
+        margin-top: auto;
 
+        align-self: flex-start;
+    }
+
+}
+
+.switcher {
+
+    padding: 3rem 0;
+
+    text-align: center;
+
+    &__button {
+        
+        background-color: hsla(216, 10%, 90%, 1);
+
+        width: 1.2rem;
+        height: 1.2rem;
+
+        border: 0;
+        border-radius: 50%;
+
+        padding: 0;
+
+        margin-right: 1.5rem;
+
+    }
+
+    &__button:last-child {
+        margin-right: 0;
+    }
+
+    &__button:hover {
+
+        cursor: pointer;
+
+        background-color: hsla(216, 18%, 72%, 1);
     }
 }

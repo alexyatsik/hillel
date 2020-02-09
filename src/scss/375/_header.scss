@@ -14,11 +14,15 @@
         backdrop-filter: blur(20px);
 
         padding: 1rem;
+
+        &__menu:hover {
+            cursor: pointer;
+        }
     }
 
     .course {
 
-        padding-top: 16%;
+        padding-top: 6rem;
         
         &__header {
             padding-bottom: 3rem;

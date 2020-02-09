@@ -101,12 +101,12 @@
 }
 
 .navigation-logo {
-    padding-top: 1.77083333333333%;
+    padding-top: 3.4rem;
 
     &__wrapper {
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: flex-end;
     }
 }
 
@@ -117,6 +117,7 @@
     
     &__list {
         display: flex;
+        align-items: center;
     }
 
     &__item:nth-last-child(3) {
