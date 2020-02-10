@@ -101,6 +101,26 @@
         object-fit: cover;
     }
 
+    @mixin generateClassForCoach($imageName) {
+        &__photo.#{$imageName} {
+            content: url('../../Assets/Content/Coaches/x1/#{$imageName}.jpg');
+        }
+    
+        @media  (-webkit-min-device-pixel-ratio: 2), 
+                (min-resolution: 192dpi)  {
+            &__photo.#{$imageName}  {
+                content: url('../../Assets/Content/Coaches/x2/#{$imageName}.jpg');
+            }
+         }
+    }
+
+    @include generateClassForCoach('Coach_1');
+    @include generateClassForCoach('Coach_2');
+    @include generateClassForCoach('Coach_3');
+    @include generateClassForCoach('Coach_4');
+    @include generateClassForCoach('Coach_5');
+    @include generateClassForCoach('Coach_6');
+
     &__details {
         display: flex;
         flex-direction: column;
@@ -134,7 +154,7 @@
 
 }
 
-.switcher {
+/*.switcher {
 
     padding: 3rem 0;
 
@@ -166,4 +186,4 @@
 
         background-color: hsla(216, 18%, 72%, 1);
     }
-}
+}*/

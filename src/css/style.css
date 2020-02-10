@@ -673,6 +673,54 @@ strong {
   min-height: 20rem;
   object-fit: cover;
 }
+.cards__photo.Coach_1 {
+  content: url("../../Assets/Content/Coaches/x1/Coach_1.jpg");
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .cards__photo.Coach_1 {
+    content: url("../../Assets/Content/Coaches/x2/Coach_1.jpg");
+  }
+}
+.cards__photo.Coach_2 {
+  content: url("../../Assets/Content/Coaches/x1/Coach_2.jpg");
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .cards__photo.Coach_2 {
+    content: url("../../Assets/Content/Coaches/x2/Coach_2.jpg");
+  }
+}
+.cards__photo.Coach_3 {
+  content: url("../../Assets/Content/Coaches/x1/Coach_3.jpg");
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .cards__photo.Coach_3 {
+    content: url("../../Assets/Content/Coaches/x2/Coach_3.jpg");
+  }
+}
+.cards__photo.Coach_4 {
+  content: url("../../Assets/Content/Coaches/x1/Coach_4.jpg");
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .cards__photo.Coach_4 {
+    content: url("../../Assets/Content/Coaches/x2/Coach_4.jpg");
+  }
+}
+.cards__photo.Coach_5 {
+  content: url("../../Assets/Content/Coaches/x1/Coach_5.jpg");
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .cards__photo.Coach_5 {
+    content: url("../../Assets/Content/Coaches/x2/Coach_5.jpg");
+  }
+}
+.cards__photo.Coach_6 {
+  content: url("../../Assets/Content/Coaches/x1/Coach_6.jpg");
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .cards__photo.Coach_6 {
+    content: url("../../Assets/Content/Coaches/x2/Coach_6.jpg");
+  }
+}
 .cards__details {
   display: flex;
   flex-direction: column;
@@ -695,27 +743,39 @@ strong {
   align-self: flex-start;
 }
 
-.switcher {
-  padding: 3rem 0;
-  text-align: center;
-}
-.switcher__button {
-  background-color: #e3e5e8;
-  width: 1.2rem;
-  height: 1.2rem;
-  border: 0;
-  border-radius: 50%;
-  padding: 0;
-  margin-right: 1.5rem;
-}
-.switcher__button:last-child {
-  margin-right: 0;
-}
-.switcher__button:hover {
-  cursor: pointer;
-  background-color: #abb5c4;
-}
+/*.switcher {
 
+    padding: 3rem 0;
+
+    text-align: center;
+
+    &__button {
+
+        background-color: hsla(216, 10%, 90%, 1);
+
+        width: 1.2rem;
+        height: 1.2rem;
+
+        border: 0;
+        border-radius: 50%;
+
+        padding: 0;
+
+        margin-right: 1.5rem;
+
+    }
+
+    &__button:last-child {
+        margin-right: 0;
+    }
+
+    &__button:hover {
+
+        cursor: pointer;
+
+        background-color: hsla(216, 18%, 72%, 1);
+    }
+}*/
 @media (max-width: 1919px) {
   .course {
     padding-top: 4.4rem;
